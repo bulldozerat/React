@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background: #fff;
+  color: #fff;
+  padding: 0;
+  margin: 0
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.container {
+  max-width: 60%;
+  margin: 0 auto
+}
+
+.top-header {
+  width: 100%;
+  background: #2f2d2e;
+  padding: 20px 0;
+  text-align: center
+}
+
+.top-header #header-heading {
+  margin: 0;
+  font-size: 30px;
+  line-height: 32px;
+  margin-bottom: 7px
+}
+
+.top-header #header-subheading {
+  margin: 0;
+  font-size: 17px;
+  line-height: 18px;
+  overflow: hidden
+}
+
+.main-nav {
+  background: #9b999a;
+  width: 100%;
+  padding: 12px 0
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0
+}
+
+.main-nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 12px
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: #fff
+}
+
+.main-nav ul li a:hover {
+  opacity: 0.8
+}
+
+.main {
+  width: 100%
+}
+
+.main-content {
+  background: #c5c5c5;
+  color: #000;
+  width: 80%;
+  margin: 30px auto 47px;
+  padding: 5%;
+  text-align: center
+}
+
+.footer {
+  background: #555;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0
+}
+
+.footer-txt {
+  font-size: 14px
+}
+
+.hamburger-menu {
+  display: none
+}
+
+@media only screen and (max-width: 600px) {
+  body .main .container {
+    max-width: 100%
+  }
+  body .main-content {
+    width: 100%;
+    margin: 0
+  }
+  body .hamburger-menu {
+    display: block
+  }
+  body #main-nav-ul {
+    display: none
+  }
+  body #mobile-nav-ul li {
+    display: block;
+    margin-bottom: 5px
+  }
+}
